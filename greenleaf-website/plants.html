@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plants | GreenLeaf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><nav class="navbar container">
+  <a href="index.html" class="logo">Green<span>Leaf</span></a>
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="plants.html">Plants</a></li>
+    <li><a href="tips.html">Gardening Tips</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav></header>
+
+<main>
+  <section class="page-banner">
+    <div class="container">
+      <p class="eyebrow">OUR COLLECTION</p>
+      <h1>Find your perfect plant</h1>
+      <p>Explore plants by care level and growing environment.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter active-filter" data-filter="all">All</button>
+        <button class="filter" data-filter="easy">Easy Care</button>
+        <button class="filter" data-filter="indoor">Indoor</button>
+        <button class="filter" data-filter="outdoor">Outdoor</button>
+      </div>
+
+      <div class="cards plant-grid">
+        <article class="card product-card" data-category="easy indoor">
+          <div class="large-plant-icon">🌿</div>
+          <h3>Snake Plant</h3><p>Low-light tolerant and drought friendly.</p>
+          <div class="plant-meta"><span>Easy Care</span><strong>Low Water</strong></div>
+        </article>
+        <article class="card product-card" data-category="indoor">
+          <div class="large-plant-icon">🌱</div>
+          <h3>Peace Lily</h3><p>Likes bright indirect light and moderate moisture.</p>
+          <div class="plant-meta"><span>Indoor</span><strong>Medium Water</strong></div>
+        </article>
+        <article class="card product-card" data-category="easy indoor">
+          <div class="large-plant-icon">🪴</div>
+          <h3>ZZ Plant</h3><p>A resilient choice for busy plant parents.</p>
+          <div class="plant-meta"><span>Easy Care</span><strong>Low Water</strong></div>
+        </article>
+        <article class="card product-card" data-category="indoor">
+          <div class="large-plant-icon">🍃</div>
+          <h3>Monstera</h3><p>Large tropical leaves for a bold indoor look.</p>
+          <div class="plant-meta"><span>Indoor</span><strong>Medium Water</strong></div>
+        </article>
+        <article class="card product-card" data-category="outdoor">
+          <div class="large-plant-icon">🌻</div>
+          <h3>Sunflower</h3><p>A cheerful outdoor plant that loves sunlight.</p>
+          <div class="plant-meta"><span>Outdoor</span><strong>High Light</strong></div>
+        </article>
+        <article class="card product-card" data-category="easy outdoor">
+          <div class="large-plant-icon">🌵</div>
+          <h3>Cactus</h3><p>Perfect for sunny spaces and minimal watering.</p>
+          <div class="plant-meta"><span>Easy Care</span><strong>Low Water</strong></div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-bottom">© 2026 GreenLeaf. Educational demo website.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | GreenLeaf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><nav class="navbar container">
+  <a href="index.html" class="logo">Green<span>Leaf</span></a>
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="plants.html">Plants</a></li>
+    <li><a href="tips.html">Gardening Tips</a></li><li><a href="about.html">About</a></li>
+    <li><a class="active" href="contact.html">Contact</a></li>
+  </ul>
+</nav></header>
+
+<main>
+<section class="page-banner"><div class="container">
+  <p class="eyebrow">SAY HELLO</p><h1>Contact GreenLeaf</h1>
+  <p>Have a question about plants or gardening? Send us a message.</p>
+</div></section>
+
+<section class="section"><div class="container contact-grid">
+  <div class="contact-info">
+    <p class="eyebrow">GET IN TOUCH</p><h2>We'd love to hear from you.</h2>
+    <p>Use the form to send a demo message or explore our other pages for gardening inspiration.</p>
+    <div class="contact-detail"><strong>✉ Email</strong><span>hello@greenleaf.example</span></div>
+    <div class="contact-detail"><strong>📍 Location</strong><span>GreenLeaf Garden Studio</span></div>
+    <div class="contact-detail"><strong>🕒 Hours</strong><span>Monday–Saturday, 9 AM–6 PM</span></div>
+  </div>
+
+  <form id="contactForm" class="contact-form">
+    <label for="name">Your Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    <label for="email">Email Address</label>
+    <input id="email" type="email" placeholder="you@example.com" required>
+    <label for="topic">Topic</label>
+    <select id="topic">
+      <option>Plant recommendation</option><option>Gardening question</option><option>General message</option>
+    </select>
+    <label for="message">Message</label>
+    <textarea id="message" rows="6" placeholder="Write your message..." required></textarea>
+    <button class="btn btn-primary" type="submit">Send Message</button>
+    <p id="formMessage" class="form-message"></p>
+  </form>
+</div></section>
+</main>
+
+<footer class="footer"><div class="footer-bottom">© 2026 GreenLeaf. Educational demo website.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
